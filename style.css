@@ -20,7 +20,8 @@ body{
     width: 40%;
     position: absolute;
     margin-top: 10%;
-    left: 70%;
+    left: 55%;
+    
 }
 a img{
     width: 40%;
@@ -41,13 +42,13 @@ a img{
 .nav-top button{
     position: relative;
     top: -25vh;
-    left: 100%;
+    left: 70%;
 }
 .bottom-gallery{
     width: 50%;
     height: 30vh;
     position: absolute;
-    margin: 30% auto;    
+    margin: 27% auto;    
 }
 .nav-bottom{
     position: relative;
@@ -55,9 +56,13 @@ a img{
 .nav-bottom button{
     position: relative;
     top: -25vh;
-    left: 100%;
+    left: 70%;
 }
-
+audio{
+    position: absolute;
+    left: 50%;
+    display: none;
+}
 
 button{
     width: 50px;
@@ -69,27 +74,31 @@ button{
     background: radial-gradient(circle, #e9a0c4 80%, #704454 100%);
     cursor: pointer;
     position: relative;
-    /*left: 50%; */  
+
 }
 .text-area{
     width: 30%;
     height: fit-content;
     position: absolute;
-    top: 65vh;
+    top: 60vh;
     left: 65%;
     font-size: 40px;
     color: white;
     font-family: 'Style Script', cursive;
     text-align: center;
+        
 }
-
+.pic{
+    display: none;
+    position: absolute;
+}
 .pic-wrapper-top{
     
     width: 100%;
     height: 100%;
 }
 .pic-wrapper-top #pic-top{
-    width: 100%;
+    width: auto;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -102,9 +111,8 @@ button{
     
 }
 .pic-wrapper-bottom #pic-bottom{
-    width: 100%;
+    width: auto;
     height: 100%;
-    background-image: url('./img/bear_2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
